@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConfiguracaoPersonagem</string>
+    <string name="título_criar_personagem">cire seu personagem</string>
+    <string name="label_nome">Nome do Persongam</string>
+    <string name="label_sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="label_classe">Classe</string>
+    <string name="label_forca">Força</string>
+    <string name="label_criar">Criar</string>
+    <string name="label_desenvolvido">Desenvolvido por CML</string>
+
+    <string name="mago">Mago</string>
+    <string name="musico">Musico</string>
+    <string name="pintor">Pintor</string>
+    <string name="poeta">Poeta</string>
+    <string name="bailarino">Bailarino</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Classes">
+        <item>@string/mago</item>
+        <item>@string/musico</item>
+        <item>@string/pintor</item>
+        <item>@string/poeta</item>
+        <item>@string/bailarino</item>
+
+    </string-array>
+
+</resources>
