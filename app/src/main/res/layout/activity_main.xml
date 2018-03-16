@@ -75,9 +75,14 @@
                 android:id="@+id/spClasse"
                 android:entries="@array/Classes"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"/>
 
-            </Spinner>
+            <ImageView
+                android:src="@drawable/mago"
+                android:layout_gravity="center"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:id="@+id/ivClasse"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -87,10 +92,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:text="0"/>
+                android:text="0" android:id="@+id/tvForca"/>
 
             <SeekBar
-                android:id="@+id/spForca"
+                android:id="@+id/sbForca"
                 android:max="10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
