@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         sbForca.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
+                tvForca.text = progress.toString()
 
             }
 
@@ -61,15 +62,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
-
-
-
-
-        spClasse.setOnItemClickListener{parent, view, position, id ->
-
-        }
-
-
 
         btCriar.setOnClickListener{
 
